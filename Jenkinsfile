@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the React project from Git
-                git 'https://github.com/RRDarius/testPipeline'
+                checkout scm
             }
         }
 
